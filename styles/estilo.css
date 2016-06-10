@@ -1,0 +1,263 @@
+html{
+
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+
+
+}
+
+body{
+
+	background-image: url("http://images.123hdwallpapers.com/20150623/little-camera-background-1680x1050.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font: normal 100.5% Helvetica, Tahoma, Arial, sans-serif;
+
+
+
+}
+
+body .container {
+
+	max-width: 1260px;
+	width: 100%;
+	margin: 0 auto;
+
+
+
+
+
+}
+
+body .section {
+	width: 49%;
+	display: inline-block;
+	color: white;
+	text-align: left;
+	background-color: rgba(0,0,0,0.3);
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 25px;
+	-webkit-box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+    -moz-box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+	box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+	
+
+
+
+
+}
+
+body .formulario {
+
+	width: 40%;	
+	display: inline-block;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 4px;
+	padding: 10px;
+	margin-left: 62px;
+	color: white;
+	font-size: 1em;
+	vertical-align: top;
+	-webkit-box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+    -moz-box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+	box-shadow: 18px 16px 32px -1px rgba(82,82,82,1);
+
+
+
+}
+
+
+.formulario input[type="text"] {
+
+	border: 4px;
+	border-radius: 4px;
+	background-color: #eae0c2;
+	display: block;
+	width:500px;
+	margin-bottom: 5px;
+
+}
+
+.formulario input[type="password"] {
+
+	border: 4px;
+	border-radius: 4px;
+	background-color: #eae0c2;
+	display: block;
+	width:500px;
+	margin-bottom: 5px;
+
+
+
+
+
+}
+
+.formulario input[type="submit"] {
+
+	border: 4px;
+	border-radius: 2px;
+	background-color: #eae0c2;
+	display: inline-block;
+	margin-top: 10px;
+	width:380px;
+	margin-bottom: 5px;
+
+
+
+}    
+
+
+.nav-bar{
+
+	color:white;
+	background-color: rgba(0,0,0,0.3);
+	padding: 6px;
+	border: 4px;
+	border-color: rgba(0,0,0,0.1);
+	border-style: solid;
+	border-radius: 4px;
+	margin-bottom: 80px;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+
+
+
+.nav-bar h1{
+
+	font-size: 2em;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 160px;
+
+}
+
+.section h2{
+
+	color: gray;
+
+}
+
+.nav-bar a{
+
+	color:white;
+	margin: 10px;
+	display: inline-block;
+	font-size: 1.5em
+}
+
+.nav-bar a img:hover{
+
+	opacity: 0.5;
+	width: 50px;
+}
+
+.nav-bar a img{
+	width: 50px;
+}
+
+footer {
+
+	position: relative;
+	min-height: 250px;
+
+}
+
+footer p {
+	position: absolute;
+	bottom: 0;
+	margin-left: 10px;
+	color: gray;
+}
+
+p span {
+
+	font-weight: bold;
+
+}
+
+/* para sombras */
+section p {
+
+	text-shadow: 0.1px 0.5px #000;
+
+}
+
+.signup_txt {
+
+	font-weight: 400;
+	font-size: 1.5em;
+	box-shadow: 0px 1px #fff;
+}
+
+.link {
+
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.rmbrm {
+	font-size: 1em;
+}
+
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:block;
+	cursor:pointer;
+	color:#505739;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
